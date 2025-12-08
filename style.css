@@ -1,0 +1,31 @@
+.registerBtn{
+    background-color: #4CAF4F;
+    border: 1px solid #4CAF4F;
+    height: 49.49px;
+    width: 148.25px;
+    color: #fff;
+    border-radius: 2.78px;
+}
+.registerBtn:hover{
+    background-color: #4CAF4F !important;
+    color: #fff;
+}
+.navbar-nav{
+    gap: 20.71px;
+}
+.headerColor{
+    background-color: #F5F7FA;
+}
+.colorDark{
+    color: #4D4D4D;
+}
+.lesson{
+    font-size: 44.55px;
+}
+.lesson div{
+    color: #4CAF4F;
+}
+.bg-black{
+     background-color: black;
+     color: #fff;
+}
