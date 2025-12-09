@@ -16,6 +16,9 @@
 .headerColor{
     background-color: #F5F7FA;
 }
+.fullbody{
+    background-color: #F9F9F9;
+}
 .colorDark{
     color: #4D4D4D;
 }
@@ -27,5 +30,85 @@
 }
 .bg-black{
      background-color: black;
-     color: #fff;
+     width: 160px ;
+     height: 49.49px;
+    
+    color: #fff;
+    border-radius: 5px;
+    }
+
+.bg-green{
+    background-color: #4CAF4F;
+    color: #fff;
+}
+.para{
+  color: #9E9DA2;
+    
+}
+.wrapper {
+    position: relative;
+    width: 80px;   /* adjust to your image size */
+    height: 80px;
+}
+
+.img {
+    position: absolute;
+   
+}
+
+/* back image */
+.bottom {
+    z-index: 1;
+     top: 0;
+    left: 0;
+}
+
+/* front image */
+.top {
+    z-index: 2;
+    left: 25px;
+    top:18px ;
+
+}
+
+span{
+    color: #4CAF4F;
+}
+.circle{
+    height: 500px ;
+    width:500px ;
+    border-radius: 250px; 
+    background-color: #4CAF4F;
+
+}
+
+.cards{
+    
+  border: 1px solid #fff;
+  height: 304px;
+  width: 1060px;
+  background-color: #fff;
+  margin-left: 30px;
+    
+}
+.cards1{
+    margin-left: 100px ;
+    
+}
+.one1{
+   width: 107px;
+   height: 119px;
+}
+
+.phone{
+   position: relative;
+  margin-left: 120px;
+   
+}
+.phone-above{
+    position: absolute;
+    z-index: 2;
+}
+.footer{
+    border: 1px solid #ECECEC;
 }
